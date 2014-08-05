@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+
+
+article{
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: 300;
+}
+
+article p{
+line-height: 1.8em;
+}
+
+article h1{
+font-weight: 300;
+font-size: 80px;
+}

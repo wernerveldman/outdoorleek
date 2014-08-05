@@ -1,0 +1,45 @@
+::selection{
+background: #fff;
+color: #81d47b;
+}
+
+body{
+background: #81d47b;
+}
+
+article{
+width: 550px;
+margin: 0 auto;
+color: #fff;
+}
+
+article h1{
+text-align: center;
+color: #fff;
+}
+
+article a{
+color: #fff;
+}
+
+article a:hover{
+color: #81d47b;
+background: #fff;
+text-decoration: none;
+}
+
+article .email_me{
+color: #fff;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 5px 10px 5px 10px;
+line-height: 1.8em;
+text-decoration: none;
+display: inline-block;
+margin: 20px;
+}
+
+article .email_me:hover{
+background: #fff;
+color: #81d47b;
+}
