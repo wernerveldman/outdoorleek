@@ -4,7 +4,7 @@ color: #81d47b;
 }
 
 body{
-background: #34495e url(../img/iPhone 233.JPG);
+background: #34495e url('../img/iPhone 233.JPG');
 }
 
 article{
