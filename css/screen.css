@@ -26,11 +26,7 @@ article a{
 color: #fff;
 }
 
-article a:hover{
-color: #81d47b;
-background: #fff;
-text-decoration: none;
-}
+
 
 article .email_me{
 color: #fff;
@@ -53,4 +49,8 @@ background: rgba(192, 57, 43,1.0);
 color: #fff;
 padding: 5px;
 border-radius: 5px;
+}
+
+.butt a{
+text-decoration: none;
 }
