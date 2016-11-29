@@ -1,25 +1,46 @@
-<!doctype html>
-
-<html lang="nl">
+<!DOCTYPE html>
+<html>
 <head>
   <meta charset="utf-8">
-
-  <title>Sinterkerst</title>
-  <meta name="description" content="Werner Veldman">
-  <meta name="author" content="Werner Veldman">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type='text/css' rel="stylesheet" href="simple-grid.min.css">
+  <title>Sinterkerst Go!</title>
+  <style type='text/css'>
+  h1{
+  color: rgba(192, 57, 43,1.0);
+  }
+  #map{
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+  }
   
-  <link rel="stylesheet" href="css/screen.css" media="screen">
-  <link rel="stylesheet" href="css/fonts.css">
+  .pokeimg{
+  width: 100%;
+  } 
+    
+  .coobox{
+  background: rgba(52, 73, 94,1.0);
+  border: 2px solid rgba(44, 62, 80,1.0);
+  color: rgba(236, 240, 241,1.0);
+  padding: 5px;
+  }
+  </style>
+
 </head>
-
 <body>
-
-	<article>
-<h1>Sinterkerst</h1>
-<p>binnenkort meer...</p>
-		
-		<a href='http://www.scoutingnienoord.com/nsl/sinterkerst'><span class='butt'>Alvast opgeven...</span></a>
-	</article>
-
-</body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 center">
+          <h1>Welkom bij Sinterkerst Go!</h1>
+          <p class='txt'>We snappen het goed jullie hebben natuurlijk zin in een koud biertje. Deze is zeker ook ingekocht, maar voor het zover is moeten jullie nog wel het een en ander doen.</p>
+          <p>De volgende locatie is: <span class='coobox'>...,...</span></p>
+          <!--<img class='pokeimg' src='Pokeball_bauble_1024x1024.jpg' />-->
+          <div id='map'></div>
+        </div>
+      </div>
+    </div>      
+  
+  
+  </body>
 </html>
