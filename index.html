@@ -65,7 +65,7 @@ font-size: 12px;
         <div class="col-12 center">
           <h1>Sinterkerst</h1>
 <h2 id='demo'></h2>
-
+          <div id='content'></div>
 
 <script>
   
@@ -76,6 +76,8 @@ var s = new Date("December 17, 2016 15:00:00");
 document.getElementById("demo").innerHTML = Math.round((s - d)/1000) + " seconden tot sinterkerst 2016";
    window.setTimeout(cntdown,1000);   
  }
+  
+  document.getElementById("content").innerHTML='<object type="text/html" data="go.html" ></object>'; 
 </script> 
 
           <div class='algemenev'>
@@ -277,7 +279,7 @@ vertrouwelijke informatie van de Opdrachtgever ter kennis van derden
           <input type='checkbox'> Ja, ik ga akkoord met de algemene voorwaarden*
           <p><span class='butt'><a href='http://www.scoutingnienoord.com/nsl/sinterkerst'>Alvast opgeven...</a></span></p>
           <small><i>*Let op: bovenstaande vinkje doet eigenlijk helemaal niks.</i></small>
-          
+         
         </div>
       </div>
     </div>      
