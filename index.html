@@ -80,10 +80,13 @@ font-size: 12px;
   window.setTimeout(cntdown,1);
   function cntdown(){
 var d = new Date();
-var s = new Date("December 15, 2016 10:00:00");
-document.getElementById("demo").innerHTML = Math.round((s - d)/1000) + " seconden tot sinterkerst 2016";
+var s = new Date("December 14, 2016 15:00:00");
+
 if (s - d < 0) {
 load("go.html", document.getElementById("content")); 
+document.getElementById("demo").innerHTML = "De tijd is gekomen, tijd voor Sinterkerst GO !";
+}else{
+document.getElementById("demo").innerHTML = Math.round((s - d)/1000) + " seconden tot sinterkerst 2016";
 }
 window.setTimeout(cntdown,1000);     
 }
