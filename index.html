@@ -68,6 +68,14 @@ font-size: 12px;
           <div id='content'></div>
 
 <script>
+  function load(url, element)
+{
+    req = new XMLHttpRequest();
+    req.open("GET", url, false);
+    req.send(null);
+
+    element.innerHTML = req.responseText; 
+}
   
   window.setTimeout(cntdown,1);
   function cntdown(){
@@ -76,7 +84,7 @@ var s = new Date("December 17, 2016 15:00:00");
 document.getElementById("demo").innerHTML = Math.round((s - d)/1000) + " seconden tot sinterkerst 2016";
    window.setTimeout(cntdown,1000);   
  }
-  
+load("go.html", document.getElementById("content"));  
  
 </script> 
 
